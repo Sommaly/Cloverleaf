@@ -2688,3 +2688,7 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+.se-connecter{
+  background-color: #88E170;
+}

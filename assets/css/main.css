@@ -2580,7 +2580,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/sport-carousel/pied-de-page.jpg") top center no-repeat;
   background-size: cover;
   font-size: 14px;
   padding: 80px 0 60px 0;
@@ -2595,6 +2595,7 @@ section {
 }
 
 .footer .footer-content .footer-info {
+  text-align: center;
   margin-bottom: 30px;
 }
 

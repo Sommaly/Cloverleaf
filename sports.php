@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -59,10 +59,10 @@ session_start();
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="accueil.php">Accueil</a></li>
-          <li><a href="sports.html" class="active">Sports</a></li>
-          <li><a href="seances.html">Séances</a></li>
-          <li><a href="profil.html">Profil</a></li>
-          <li><a href="login.html">Se connecter</a></li>
+          <li><a href="sports.php" class="active">Sports</a></li>
+          <li><a href="seances.php">Séances</a></li>
+          <li><a href="profil.php">Profil</a></li>
+          <li><a href="accueil.php#se-connecter">Se connecter</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -77,7 +77,7 @@ session_start();
 
         <h2>Sports</h2>
         <ol>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="index.php">Accueil</a></li>
           <li>Sports</li>
         </ol>
 
@@ -492,4 +492,4 @@ else
 
 </body>
 
-</html>
+</php>

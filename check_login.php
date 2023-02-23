@@ -24,6 +24,7 @@ if($ligne)
 }
 else
 {
+    header("login.php");
     header("http://127.0.0.1/Cloverleaf/accueil.php");
     echo ("vous devez vous connectez");
 }    

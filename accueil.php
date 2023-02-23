@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php
+>
+<php
+ lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -60,9 +62,15 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="accueil.php" class="active">Accueil</a></li>
+          <li><a href="sports.php
+          ">Sports</a></li>
+          <li><a href="seances.php
+          ">Séances</a></li>
+          <li><a href="profil.php
+          ">Profil</a></li>
           <li><a href="sports.php">Sports</a></li>
-          <li><a href="seances.html">Séances</a></li>
-          <li><a href="profil.html">Profil</a></li>
+          <li><a href="seances.php">Séances</a></li>
+          <li><a href="profil.php">Profil</a></li>
           <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
         </ul>
       </nav><!-- .navbar -->
@@ -201,4 +209,5 @@
     
   </body>
   
-  </html>
+  </php
+  >

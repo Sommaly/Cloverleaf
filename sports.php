@@ -57,7 +57,7 @@
           <li><a href="sports.php" class="active">Sports</a></li>
           <li><a href="seances.php">Séances</a></li>
           <li><a href="profil.php">Profil</a></li>
-          <li><a href="login.php">Se connecter</a></li>
+          <li><a href="accueil.php#se-connecter">Se connecter</a></li>
         </ul>
       </nav><!-- .navbar -->
 

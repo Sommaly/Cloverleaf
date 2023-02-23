@@ -108,7 +108,7 @@
 
           <div class="col-lg-3" data-aos="fade"></div>
           <div class="col-lg-6" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
+            <form action="forms/accueil.php" method="post" class="php-email-form">
               <h3>Connexion</h3>
               <p>La connexion vous permettra de vous inscrire aux séances de sport prévues au lycée Pasteur Mont-Roland</p>
               <div class="row gy-3">

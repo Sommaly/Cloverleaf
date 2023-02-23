@@ -43,7 +43,7 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="accueil.html" class="logo d-flex align-items-center">
+      <a href="accueil.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/montroland.png" alt="">
         <h1>Lycée Pasteur Mont Roland<span>.</span></h1>
@@ -53,7 +53,7 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="accueil.html" class="active">Accueil</a></li>
+          <li><a href="accueil.php" class="active">Accueil</a></li>
           <li><a href="sports.html">Sports</a></li>
           <li><a href="seances.html">Séances</a></li>
           <li><a href="profil.html">Profil</a></li>

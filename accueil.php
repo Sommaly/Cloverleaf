@@ -39,6 +39,12 @@
 
 <body>
 
+
+
+
+        
+
+        ?
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -54,7 +60,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="accueil.php" class="active">Accueil</a></li>
-          <li><a href="sports.html">Sports</a></li>
+          <li><a href="sports.php">Sports</a></li>
           <li><a href="seances.html">Séances</a></li>
           <li><a href="profil.html">Profil</a></li>
           <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
@@ -101,6 +107,7 @@
   <main id="main">
 
     <!-- ======= Get Started Section ======= -->
+  
     <section id="se-connecter" class="se-connecter section-bg">
       <div class="container">
 
@@ -108,22 +115,22 @@
 
           <div class="col-lg-3" data-aos="fade"></div>
           <div class="col-lg-6" data-aos="fade">
-            <form action="forms/accueil.php" method="post" class="php-email-form">
+            <form action="check_login.php" method="post">
               <h3>Connexion</h3>
               <p>La connexion vous permettra de vous inscrire aux séances de sport prévues au lycée Pasteur Mont-Roland</p>
               <div class="row gy-3">
 
                 <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                  <input type="text" name="login" class="form-control" placeholder="Nom" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="password" name="password" class="form-control" placeholder="Mot de passe" required>
+                  <input type="password" name="pwd" class="form-control" placeholder="Mot de passe" required>
                 </div>
 
                 <div class="col-md-12 text-center">
                   <button type="submit">Confirmer</button>
-                </div>
+                </div>           
 
               </div>
             </form>
@@ -191,7 +198,7 @@
   
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-  
+    
   </body>
   
   </html>

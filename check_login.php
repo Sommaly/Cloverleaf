@@ -1,4 +1,4 @@
-<?
+<?php
 $mysqlConnection = new PDO( 
         'mysql:host=localhost;dbname=projet;charset=utf8', 
 

@@ -57,7 +57,7 @@
           <li><a href="sports.html">Sports</a></li>
           <li><a href="seances.html">Séances</a></li>
           <li><a href="profil.html">Profil</a></li>
-          <li><a href="login.html">Se connecter</a></li>
+          <li><a data-aos="fade-up" data-aos-delay="200" href="#se-connecter" class="btn-get-started">Se connecter</a>
         </ul>
       </nav><!-- .navbar -->
 

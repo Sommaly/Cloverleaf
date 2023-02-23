@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Se connecter</title>
+  <title>UpConstruction Bootstrap Template - Service Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,21 +43,39 @@
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="accueil.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/montroland.png" alt="">
-        <h1>Lycée Pasteur Mont Roland<span>.</span></h1>
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>UpConstruction<span>.</span></h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="accueil.php">Accueil</a></li>
-          <li><a href="sports.html">Sports</a></li>
-          <li><a href="seances.html">Séances</a></li>
-          <li><a href="profil.html">Profil</a></li>
-          <li><a href="login.html" class="active">Se connecter</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -70,57 +88,59 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Connexion</h2>
+        <h2>Service Details</h2>
         <ol>
-          <li><a href="index.html">Accueil</a></li>
-          <li>Connexion</li>
+          <li><a href="index.php">Home</a></li>
+          <li>Service Details</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
-<!-- ======= Alt Services Section 2 ======= -->
-<section id="alt-services-2" class="alt-services section-bg">
-  <div class="container" data-aos="fade-up">
+    <!-- ======= Service Details Section ======= -->
+    <section id="service-details" class="service-details">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-    <!-- ======= Get Started Section ======= -->
-    <section id="se-connecter" class="se-connecter section-bg">
-      <div class="container">
+        <div class="row gy-4">
 
-        <div class="row">
+          <div class="col-lg-4">
+            <div class="services-list">
+              <a href="#" class="active">Remodeling</a>
+              <a href="#">Construction</a>
+              <a href="#">Product Management</a>
+              <a href="#">Repairs</a>
+              <a href="#">Design</a>
+            </div>
 
-          <div class="col-lg-3" data-aos="fade"></div>
-          <div class="col-lg-6" data-aos="fade">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Connexion</h3>
-              <p>La connexion vous permettra de vous inscrire aux séances de sport prévues au lycée Pasteur Mont-Roland</p>
-              <div class="row gy-3">
+            <h4>Enim qui eos rerum in delectus</h4>
+            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+          </div>
 
-                <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nom" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="password" name="password" class="form-control" placeholder="Mot de passe" required>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <button type="submit">Confirmer</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
+          <div class="col-lg-8">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
+          </div>
 
         </div>
 
       </div>
-    </section><!-- End Get Started Section -->
-       
+    </section><!-- End Service Details Section -->
 
-        
-  </div>
-</section><!-- End Alt Services Section 2 -->
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -231,4 +251,4 @@
 
 </body>
 
-</html>
+</php>

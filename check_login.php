@@ -17,10 +17,10 @@ if($ligne)
 {
     session_start();
     $_SESSION["login"]=$_POST["login"];
-    header("accueil.html");
+    header("accueil.php");
 }
 else
 {
-    header("login.html");
+    header("login.php");
 }    
     ?>

@@ -39,11 +39,6 @@
 
 <body>
 
-<?php
-session_start();
-    if (isset($_SESSION["login"])){
-      ?>
-
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -481,14 +476,7 @@ session_start();
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<?php
-}
-else
-{
-  header("http://127.0.0.1/Cloverleaf/accueil.php");
-  echo ("Vous devez vous connectez");
-}
-?>
+
 
 </body>
 

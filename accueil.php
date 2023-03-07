@@ -1,7 +1,5 @@
-<!DOCTYPE php
->
-<php
- lang="en">
+<!DOCTYPE php>
+<php lang="en">
 
 <head>
   <meta charset="utf-8">
